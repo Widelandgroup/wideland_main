@@ -1,0 +1,17 @@
+#mainNav {
+  background-color: rgba(47,23,15,.9);
+  font-family: Raleway;
+}
+
+.bg-dark {
+  background-color: #A80325!important;
+}
+
+body {
+  font-family: Lora;
+  background: #ffffff;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+}
+
