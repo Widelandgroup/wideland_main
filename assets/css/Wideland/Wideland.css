@@ -1,17 +1,31 @@
 #mainNav {
-  background-color: rgba(47,23,15,.9);
-  font-family: Raleway;
+  background-color: rgb(189,0,43);
+  font-family: Roboto;
 }
 
 .bg-dark {
-  background-color: #A80325!important;
+  background-color: rgb(189,0,43)!important;
 }
 
 body {
-  font-family: Lora;
+  font-family: roboto;
   background: #ffffff;
   background-attachment: fixed;
   background-position: 50%;
   background-size: cover;
+}
+
+.footer {
+  background-color: rgba(189,0,43);
+}
+
+.text-faded {
+  color: hsla(0,0%,100%,.9);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: hsla(0,0%,100%,.9);
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
