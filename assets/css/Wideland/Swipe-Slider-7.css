@@ -678,7 +678,7 @@
 }
 
 #fw_al_001 > .carousel-inner > .carousel-item > a > img, #fw_al_001 > .carousel-inner > .carousel-item > img {
-  opacity: .45;
+  opacity: 100;
   margin: auto;
   width: 100%!important;
 }
