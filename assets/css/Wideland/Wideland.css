@@ -70,3 +70,11 @@ body {
   color: hsla(0,0%,100%,.5);
 }
 
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+  margin: 5px;
+  height: 350px;
+  padding-top: 0px;
+}
+
