@@ -3,6 +3,10 @@
   font-family: 'Roboto';
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 .bg-dark {
   background-color: rgb(189,0,43)!important;
 }
