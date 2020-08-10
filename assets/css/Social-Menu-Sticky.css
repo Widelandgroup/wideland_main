@@ -10,7 +10,7 @@
   z-index: 1;
   padding: 0px;
   margin: 0px;
-  position: fixed;
+  position: static;
   top: 290px;
 }
 
