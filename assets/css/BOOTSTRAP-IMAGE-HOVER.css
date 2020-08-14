@@ -10,7 +10,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 90;
+  z-index: 1;
   transition: all 0.4s;
 }
 
@@ -34,7 +34,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 99;
+  z-index: 2;
   transition: all 0.4s;
 }
 
@@ -75,7 +75,7 @@
   left: 0;
   text-align: center;
   width: 100%;
-  z-index: 99;
+  z-index: 2;
   transition: all 0.3s;
 }
 
@@ -231,7 +231,7 @@
   left: 0;
   display: block;
   transition: all 0.3s;
-  z-index: 999;
+  z-index: 2;
 }
 
 .hover-5 .hover-overlay {
@@ -244,7 +244,7 @@
   left: 0;
   transition: all 0.3s;
   padding: 2rem 3rem;
-  z-index: 99;
+  z-index: 2;
 }
 
 .hover-5-title span {

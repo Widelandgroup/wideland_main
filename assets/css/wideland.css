@@ -158,7 +158,7 @@ span {
 }
 
 .navbar {
-  position: relative;
+  /*position: fixed;*/
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
