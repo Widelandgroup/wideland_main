@@ -158,7 +158,6 @@ span {
 }
 
 .navbar {
-  /*position: fixed;*/
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -178,5 +177,10 @@ span {
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
+}
+
+#navbarbutton[aria-expanded="true"] ~ ul {
+  overflow-y: scroll;
+  max-height: 100%;
 }
 
