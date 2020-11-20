@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/Contact-form-simple.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightpick@1.3.4/css/lightpick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/Social-Menu-Sticky.css">
@@ -55,53 +56,30 @@
         <div class="container">
             <form id="contactForm" style="padding:15px;" action="javascript:void();" method="post">
                 <div class="form-row" style="margin-left:0px;margin-right:0px;padding:10px;">
-                    <div class="col-md-6" style="padding-left:20px;padding-right:20px;">
-                        <fieldset></fieldset>
-                        <legend style="color: rgb(47,52,56);"><i class="fa fa-info"></i>&nbsp;Information test form only</legend>
-                        <p></p>
-                        <div class="table-responsive">
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <td><i class="fa fa-building"></i></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fa fa-map-marker"></i></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fa fa-phone"></i></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fa fa-envelope"></i></td>
-                                        <td>enquiry@widelandgroup.com.au</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                     <div class="col-12 col-md-6" id="message" style="padding-right:20px;padding-left:20px;">
                         <fieldset>
-                            <legend style="color: rgb(47,52,56);"><i class="fa fa-envelope"></i>&nbsp;Contact Form</legend>
+                            <legend style="color: rgb(47,52,56);"><i class="fa fa-envelope"></i>&nbsp;Contact Details test only</legend>
                         </fieldset>
                         <div class="form-group has-feedback"><label for="from_name" style="color: rgb(47,52,56);">Your Name</label><input class="form-control" type="text" id="from_name" tabindex="-1" name="from_name" required="" placeholder="Enter Your Name"></div>
                         <div class="form-group has-feedback"><label for="from_email" style="color: rgb(47,52,56);">Email</label><input class="form-control" type="email" id="from_email" name="from_email" required="" placeholder="Enter Email Address"></div>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group has-feedback"><label for="from_phone" style="color: rgb(47,52,56);">Your Phone</label><input class="form-control" type="text" id="from_phone" name="subject" placeholder="Enter Your Phone Number"></div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group"><label for="calltime" style="color: rgb(47,52,56);">Department</label><select class="form-control" id="calltime" name="afdeling" value="Afdeling" required=""><option value="Sales">Sales</option><option value="Technische Dienst">Technische Dienst</option><option value="Webdevelopers">Webdevelopers</option></select></div>
-                            </div>
-                        </div>
-                        <div class="form-group"><label for="comments" style="color: rgb(33,37,41);">Comments</label><textarea class="form-control" id="comments" name="Comments" placeholder="Enter Comments" rows="5"></textarea></div>
-                        <div class="form-group"><button class="btn btn-primary active btn-block" style="background-color:#303641;" type="submit">Send <i class="fa fa-chevron-circle-right"></i></button></div>
-                        <hr>
+                        <div class="form-group has-feedback"><label for="from_phone" style="color: rgb(47,52,56);">Your Phone</label><input class="form-control" type="text" id="from_phone" name="subject" placeholder="Enter Your Phone Number"></div>
                     </div>
-                </div>
-            </form>
+                    <div class="col-12 col-md-6" id="message-1" style="padding-right:20px;padding-left:20px;">
+                        <fieldset>
+                            <legend style="color: rgb(47,52,56);">Service Details test only</legend>
+                        </fieldset>
+                        <div class="form-group has-feedback"><label for="from_name" style="color: rgb(47,52,56);">Vehicle Type</label><input class="form-control" type="text" id="vehicletype" tabindex="-1" name="vehicle_type" required="" placeholder="Vehicle Type Make and Model"></div>
+                        <div
+                            class="form-group has-feedback"><label for="from_email" style="color: rgb(47,52,56);">Rego</label><input class="form-control" type="text" id="rego" tabindex="-1" name="rego" required="" placeholder="Vehicle Type Make and Model"></div>
+                    <div class="form-group has-feedback"><label for="from_phone" style="color: rgb(47,52,56);">Preferred Date</label><input class="form-control" type="text" id="datePicker"></div>
+                    <div class="form-group"><label for="calltime" style="color: rgb(47,52,56);">Branch</label><select class="form-control" id="calltime-1" name="Branch" value="" required=""><option value="Toowoomba">Toowoomba</option><option value="Tamworth">Tamworth</option><option value="Rockhampton">Rockhampton</option><option value="Sunshine Coast">Sunshine Coast</option><option value="Maryborough">Maryborough</option><option value="Muswellbrook">Muswellbrook</option><option value="Scone">Scone</option></select></div>
+                    <div
+                        class="form-group"><label for="comments" style="color: rgb(33,37,41);">Comments</label><textarea class="form-control" id="comments-1" name="Comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                <div class="form-group"><button class="btn btn-primary active btn-block" style="background-color:#303641;" type="submit">Send <i class="fa fa-chevron-circle-right"></i></button></div>
+                <hr>
+        </div>
+        </div>
+        </form>
         </div>
     </section>
     <div class="footer-dark">
@@ -147,6 +125,9 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightpick@1.3.4/lightpick.min.js"></script>
+    <script src="assets/js/datepicker.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
     <script src="assets/js/Swipe-Slider-7.js"></script>
